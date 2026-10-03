@@ -5,3 +5,5 @@
 .author .version{display:inline-block;margin-left:16px;padding-left:16px;border-left:1px solid #dedfea;white-space:nowrap}
 
 :root{--accent:#5546df}.logo,.primary{background:var(--accent)}.primary{border-color:var(--accent)}.tabs .active,.badge{color:var(--accent)}.appearance label{margin-bottom:0}.appearance p{font-size:13px;margin-top:12px}
+
+.export-actions{display:flex;gap:8px}#imageDialog{width:min(680px,94vw);max-height:92vh;overflow:auto}#exportPreview{display:block;width:100%;height:auto;margin-top:16px;-webkit-touch-callout:default}.export-actions button:disabled{opacity:.6;cursor:wait}@media(max-width:650px){.toolbar{flex-wrap:wrap}.export-actions{width:100%;justify-content:flex-end}#imageDialog{padding:18px}}
